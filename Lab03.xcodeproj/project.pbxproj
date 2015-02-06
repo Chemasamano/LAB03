@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC762AA01A8470C90069EE34 /* UAG_logotype.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC762A9F1A8470C90069EE34 /* UAG_logotype.jpg */; };
+		FC762AA21A8470EE0069EE34 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC762AA11A8470EE0069EE34 /* images.jpeg */; };
 		FCF3EAD21A841B9B009972BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD11A841B9B009972BD /* main.m */; };
 		FCF3EAD51A841B9B009972BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD41A841B9B009972BD /* AppDelegate.m */; };
 		FCF3EAD81A841B9B009972BD /* Lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD61A841B9B009972BD /* Lab03.xcdatamodeld */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC762A9F1A8470C90069EE34 /* UAG_logotype.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UAG_logotype.jpg; sourceTree = "<group>"; };
+		FC762AA11A8470EE0069EE34 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		FCF3EACC1A841B9B009972BD /* Lab03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF3EAD01A841B9B009972BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF3EAD11A841B9B009972BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		FCF3EAC31A841B9A009972BD = {
 			isa = PBXGroup;
 			children = (
+				FC762AA11A8470EE0069EE34 /* images.jpeg */,
+				FC762A9F1A8470C90069EE34 /* UAG_logotype.jpg */,
 				FCF3EACE1A841B9B009972BD /* Lab03 */,
 				FCF3EAEB1A841B9B009972BD /* Lab03Tests */,
 				FCF3EACD1A841B9B009972BD /* Products */,
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF3EADE1A841B9B009972BD /* Main.storyboard in Resources */,
+				FC762AA21A8470EE0069EE34 /* images.jpeg in Resources */,
 				FCF3EAE31A841B9B009972BD /* LaunchScreen.xib in Resources */,
+				FC762AA01A8470C90069EE34 /* UAG_logotype.jpg in Resources */,
 				FCF3EAE01A841B9B009972BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
