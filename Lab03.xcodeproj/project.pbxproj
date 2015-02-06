@@ -10,11 +10,12 @@
 		FCF3EAD21A841B9B009972BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD11A841B9B009972BD /* main.m */; };
 		FCF3EAD51A841B9B009972BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD41A841B9B009972BD /* AppDelegate.m */; };
 		FCF3EAD81A841B9B009972BD /* Lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAD61A841B9B009972BD /* Lab03.xcdatamodeld */; };
-		FCF3EADB1A841B9B009972BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EADA1A841B9B009972BD /* ViewController.m */; };
 		FCF3EADE1A841B9B009972BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF3EADC1A841B9B009972BD /* Main.storyboard */; };
 		FCF3EAE01A841B9B009972BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF3EADF1A841B9B009972BD /* Images.xcassets */; };
 		FCF3EAE31A841B9B009972BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF3EAE11A841B9B009972BD /* LaunchScreen.xib */; };
 		FCF3EAEF1A841B9B009972BD /* Lab03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAEE1A841B9B009972BD /* Lab03Tests.m */; };
+		FCF3EAFA1A8427A3009972BD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAF91A8427A3009972BD /* TableViewController.m */; };
+		FCF3EAFD1A8427F3009972BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3EAFC1A8427F3009972BD /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		FCF3EAD31A841B9B009972BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCF3EAD41A841B9B009972BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCF3EAD71A841B9B009972BD /* Lab03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab03.xcdatamodel; sourceTree = "<group>"; };
-		FCF3EAD91A841B9B009972BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCF3EADA1A841B9B009972BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCF3EADD1A841B9B009972BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCF3EADF1A841B9B009972BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCF3EAE21A841B9B009972BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FCF3EAE81A841B9B009972BD /* Lab03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF3EAED1A841B9B009972BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF3EAEE1A841B9B009972BD /* Lab03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab03Tests.m; sourceTree = "<group>"; };
+		FCF3EAF81A8427A3009972BD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		FCF3EAF91A8427A3009972BD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		FCF3EAFB1A8427F3009972BD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCF3EAFC1A8427F3009972BD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +88,10 @@
 			children = (
 				FCF3EAD31A841B9B009972BD /* AppDelegate.h */,
 				FCF3EAD41A841B9B009972BD /* AppDelegate.m */,
-				FCF3EAD91A841B9B009972BD /* ViewController.h */,
-				FCF3EADA1A841B9B009972BD /* ViewController.m */,
+				FCF3EAF81A8427A3009972BD /* TableViewController.h */,
+				FCF3EAF91A8427A3009972BD /* TableViewController.m */,
+				FCF3EAFB1A8427F3009972BD /* ViewController.h */,
+				FCF3EAFC1A8427F3009972BD /* ViewController.m */,
 				FCF3EADC1A841B9B009972BD /* Main.storyboard */,
 				FCF3EADF1A841B9B009972BD /* Images.xcassets */,
 				FCF3EAE11A841B9B009972BD /* LaunchScreen.xib */,
@@ -224,8 +229,9 @@
 			files = (
 				FCF3EAD51A841B9B009972BD /* AppDelegate.m in Sources */,
 				FCF3EAD21A841B9B009972BD /* main.m in Sources */,
-				FCF3EADB1A841B9B009972BD /* ViewController.m in Sources */,
 				FCF3EAD81A841B9B009972BD /* Lab03.xcdatamodeld in Sources */,
+				FCF3EAFA1A8427A3009972BD /* TableViewController.m in Sources */,
+				FCF3EAFD1A8427F3009972BD /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				FCF3EAF41A841B9B009972BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCF3EAF51A841B9B009972BD /* Build configuration list for PBXNativeTarget "Lab03Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				FCF3EAF71A841B9B009972BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
